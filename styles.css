@@ -10,7 +10,7 @@ body {
 header {
     color: white;
     text-align: center;
-    background-image:
+    background-image: linear-gradient(90deg, rgb(0, 0,0,0.4) 0%, rgb(0,0,0,0.4)),
      url(hong-kong-lights.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ header {
     padding: 60px 0;
 }
 h1 {
-font-size: 10px;
+font-size: 22px;
 
 }
 
