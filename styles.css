@@ -55,6 +55,36 @@ letter-spacing: 5px;
         margin-bottom: 50px;
     }
     
+section {
+    background-image: linear-gradient(90deg, rgb(0, 0,0,0.7) 0%, rgb(0,0,0,0.7)),
+url("Hong-kong-high-def.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+max-width:100%;
+padding: 50px;
+margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+
+.grid ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.grid h3 {
+    margin: 0;
+}
+
+.grid p {
+    margin-top: 0;
+}
 
 @media (max-width:500px) {
 header {
