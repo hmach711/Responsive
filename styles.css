@@ -2,7 +2,7 @@ body {
     font-family: poppins;
 }
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
   
 }
@@ -68,7 +68,7 @@ letter-spacing: 5px;
    
 section {
   
-max-width:1500px;
+max-width:800px;
 padding: 10px;
 margin: 0 auto;
 
@@ -96,7 +96,7 @@ footer {
   }
   
   section {
-    max-width: 1200px;
+    
     text-align: center;
     margin: 0 auto;
   }
@@ -145,10 +145,12 @@ footer ul {
     .grid-with-2-columns {
       grid-template-columns: 1fr;
       grid-gap: 32px;
+      max-width: 100%;
     }
   
     section {
-      padding: 30px;
+      padding: 20px;
+      max-width: 100%;
     }
   }
 
@@ -180,9 +182,62 @@ main h2 {
     margin: 0;
 }
 
+.second-section {
+    background-color: rgb(216, 212, 212);
+    max-width: 100%;
+}
+
+
+.grid-3-columns {
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+}
+
+.card {
+background-color: rgb(240, 237, 237);
+padding: 15px;
+margin-top: 20px;
+text-align: center;
+}
+
+
+
+.button {
+
+color: white;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding: 16px;
+margin-top: 20px;
+background-color: #3a2a79;
+
+}
 .grid-with-2-columns {
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-gap: 20px;
 
+
 }
+h6 {
+    display: block;
+    color: #272044;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-header.grid{
+grid-gap: 0;
+
+
+}
+
+
